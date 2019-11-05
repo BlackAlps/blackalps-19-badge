@@ -1,0 +1,3 @@
+[submodule "utils/ampy"]
+	path = utils/ampy
+	url = https://github.com/scientifichackers/ampy.git
