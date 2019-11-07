@@ -47,7 +47,7 @@ class Screen:
         invert allows to invert colors
         """
         l = len(text)
-        self.oled.fill_rect(x-1, y-1, x+(8*l)+1, 10, invert)
+        self.oled.fill_rect(x-1, y-1, (8*l)+1, 10, invert)
         self.oled.text(text, x, y, not invert)
         self.oled.show()
 
