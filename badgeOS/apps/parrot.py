@@ -1,7 +1,6 @@
 import machine
 import ssd1306
 import framebuf
-import time
 
 class App:
 
