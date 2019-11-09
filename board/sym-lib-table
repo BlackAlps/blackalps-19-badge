@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name badge-rescue)(type Legacy)(uri ${KIPRJMOD}/badge-rescue.lib)(options "")(descr ""))
+)
