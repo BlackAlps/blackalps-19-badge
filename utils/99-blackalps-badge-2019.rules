@@ -1,0 +1,7 @@
+# UDEV Rules for BlackAlps 2019 Badge
+#
+# To install, type this command in a terminal:
+#   sudo cp 99-blackalps-badge-2019.rules /etc/udev/rules.d/99-blackalps-badge-2019.rules
+#
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="1a86", ATTRS{idProduct}=="7523", ENV{ID_MM_DEVICE_IGNORE}="1"
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="1a86", ATTRS{idProduct}=="7523", MODE="0664", GROUP="plugdev"
